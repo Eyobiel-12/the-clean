@@ -37,7 +37,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-10 sm:mt-12 pt-8 border-t border-stone-700 text-center text-sm text-stone-500">
+        <div className="mt-10 sm:mt-12 pt-8 border-t border-stone-700 text-center text-sm text-stone-500 space-y-2">
+          <p>
+            Onderdeel van{' '}
+            <a href="https://www.alpha-groups.nl/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 transition-colors">Alpha Group</a>
+          </p>
           <p>© {new Date().getFullYear()} The Clean. Professionele schoonmaakdiensten.</p>
         </div>
       </div>
