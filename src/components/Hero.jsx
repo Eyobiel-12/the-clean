@@ -115,15 +115,6 @@ export default function Hero() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <motion.div
-              className="absolute -bottom-4 -left-2 sm:-bottom-6 sm:-left-6 bg-white p-3 sm:p-4 shadow-xl rounded-lg sm:rounded-sm"
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 1.2, duration: 0.6 }}
-            >
-              <p className="text-xs uppercase tracking-widest text-teal-600 font-medium">Sinds 2010</p>
-              <p className="text-stone-800 font-medium text-sm sm:text-base">Ervaren professionals</p>
-            </motion.div>
           </motion.div>
         </div>
       </div>
