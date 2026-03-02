@@ -37,6 +37,7 @@ export default function Hero() {
 
   return (
     <section 
+      id="gordijnen"
       ref={heroRef}
       className="relative min-h-[100dvh] flex items-center overflow-hidden bg-stone-50"
     >
@@ -110,8 +111,8 @@ export default function Hero() {
           >
             <div className="aspect-[4/5] rounded-xl sm:rounded-lg overflow-hidden shadow-2xl shadow-stone-200/50">
               <img
-                src="/images/4.jpeg"
-                alt="Professionele schoonmaak van banken"
+                src="/images/gordijn.jpeg"
+                alt="Professionele gordijnreiniging - Onze specialiteit"
                 className="w-full h-full object-cover"
               />
             </div>
