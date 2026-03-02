@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const images = [
+  '/images/gordijn.jpeg',
   '/images/5.jpeg',
   '/images/4.jpeg',
   '/images/6.jpeg',

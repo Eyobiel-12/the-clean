@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Specialty from './components/Specialty'
 import About from './components/About'
 import Services from './components/Services'
 import Gallery from './components/Gallery'
@@ -37,6 +38,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Specialty />
         <About />
         <Services />
         <Gallery />

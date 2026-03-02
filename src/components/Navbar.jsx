@@ -12,6 +12,7 @@ export default function Navbar() {
   }, [])
 
   const navLinks = [
+    { href: '#specialiteit', label: 'Gordijnen' },
     { href: '#over-ons', label: 'Over Ons' },
     { href: '#diensten', label: 'Diensten' },
     { href: '#galerij', label: 'Galerij' },

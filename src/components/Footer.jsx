@@ -17,6 +17,7 @@ export default function Footer() {
             </motion.div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16">
               <nav className="flex flex-wrap gap-6 sm:gap-12 text-sm">
+                <a href="#specialiteit" className="hover:text-teal-400 transition-colors">Gordijnen</a>
                 <a href="#over-ons" className="hover:text-teal-400 transition-colors">Over Ons</a>
                 <a href="#diensten" className="hover:text-teal-400 transition-colors">Diensten</a>
                 <a href="#galerij" className="hover:text-teal-400 transition-colors">Galerij</a>
